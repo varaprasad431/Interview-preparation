@@ -1,0 +1,119 @@
+EVERYDAY-learning
+
+LINUX: please refer git learning repo
+---- @@--------@@-------
+Question 1: 
+what is operating system and it's components?
+operating system is the bridge between the user and the computer components then it is called OS. For example it handles the tasks like file management, task management  and memory management.
+
+Linux components : 
+kernel -manage hardware components & low level os
+daemons -manages background services
+shell -used to execute user inputs(commands, programs and shell script)
+
+Question2:
+list some commands and explain it's usage?
+FILES commands:
+root user -admin he had super user power
+sudo -i   :to switch to root user
+ls/ll     : to list files
+touch     : to create a file
+ls\ll -a  : to see the hidden files also
+cat /more      : to view the data inside the file
+cat>file1 : to insert the content
+enter + control+d : to save the file
+cat>>file :  to insert the content more than one time into the file
+contrl+L : to clear the screen
+cp       : to copy content file to anther file
+rm       : to remove file
+rm -f    : to remove file forcefully
+rm -f *  : to remove all files
+mv       : to move one file one to anther
+mv       : to rename the filename also used
+touch file{1..9} : it will create multiple files at a time 
+rm -f k* : it will remove the files whose name start with k it will delete
+rm -f file{4..7} : it will remove only there files
+echo  "prasad" > prasadfile : to insert the data or text into the file prasadfile
+mkdir  : to creae directory or folder
+cd     : to change directory
+pwd    : present working directory
+cd ..  : to go one step back directory
+mkdir  prasad/varaprasad/yadav  : it will create the directory inside the directory
+touch prasad/prasad.txt  : it will create file inside the directory
+
+cd ../../ : to get two dir back
+cd - : to got to previous dir
+
+yum install tree -y
+
+yum : package manager
+install : action
+tree  : to show the how many directories and files in that server
+
+rm -rf : to remove the files recursively it means delete directory if the files present inside the directory
+
+head : to print top 10 lines  - head -8 numbers
+tail : to print last 10 lines  - tail -7 numbers
+sed : to print the middle lines  -sed -n '5,13p' numbers
+
+WC filename : to count the number of characters' , words , lines , spaces
+
+Sure! Here are the questions along with brief answers:
+
+1. **What is the Linux kernel?**
+   - The Linux kernel is the core part of the Linux operating system that manages system resources and hardware communication. It handles tasks like process management, memory management, device drivers, and system calls.
+
+2. **What is the difference between Linux and Unix?**
+   - Linux is an open-source operating system inspired by Unix, while Unix is a proprietary operating system developed in the 1970s. Linux is generally more flexible, widely used, and available for various hardware architectures.
+
+3. **Can you explain the Linux file system hierarchy?**
+   - The Linux file system follows a hierarchy where:
+     - `/etc`: Configuration files.
+     - `/var`: Variable data files (logs, databases).
+     - `/home`: User home directories.
+     - `/bin`: Essential user binaries.
+
+4. **How do you check system resource usage in Linux?**
+   - You can use commands like:
+     - `top`: Displays active processes.
+     - `htop`: An enhanced version of `top`.
+     - `free`: Shows memory usage.
+     - `df`: Displays disk space usage.
+
+5. **What are the different types of file permissions in Linux?**
+   - File permissions include:
+     - Read (`r`), Write (`w`), and Execute (`x`) for user (owner), group, and others.
+     - Use `chmod` to change permissions, e.g., `chmod 755 file.txt`.
+
+6. **How can you create a symbolic link and a hard link in Linux?**
+   - Use:
+     - Symbolic link: `ln -s target_file link_name`
+     - Hard link: `ln target_file link_name`
+   - A symbolic link points to a path, while a hard link refers directly to the data.
+
+7. **What is a process, and how can you manage processes in Linux?**
+   - A process is a running instance of a program. You can manage processes using:
+     - `ps`: View running processes.
+     - `kill`: Terminate a process.
+     - `nice`: Change process priority.
+     - `bg`/`fg`: Manage background and foreground processes.
+
+8. **What are shells in Linux? Can you name a few?**
+   - Shells are command-line interfaces that allow users to interact with the operating system. Common shells include:
+     - Bash (Bourne Again Shell)
+     - Zsh (Z Shell)
+     - Ksh (Korn Shell)
+
+9. **How do you schedule tasks in Linux?**
+   - Use `cron` to schedule recurring tasks. For example, add a job to the crontab using `crontab -e`. Use the `at` command for one-time scheduled tasks.
+
+10. **What is a package manager, and can you name some commonly used ones in Linux?**
+    - A package manager automates the installation, updating, and removal of software packages. Common package managers include:
+      - `apt` (Debian-based systems)
+      - `yum`/`dnf` (Red Hat-based systems)
+      - `pacman` (Arch Linux)
+
+Feel free to expand on these answers based on your experience and understanding!
+
+
+
